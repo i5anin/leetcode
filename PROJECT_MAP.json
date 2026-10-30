@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "leetcode",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:leetcode",
+      "type": "project",
+      "name": "leetcode"
+    },
+    {
+      "id": "project:leetcode/file:problems/67. Add Binary/README.md",
+      "type": "file",
+      "path": "problems/67. Add Binary/README.md",
+      "sha256": "37d574b4733a70dcc64d72943127195ac26e937afefe16177996ac2d88dcd0f9",
+      "bytes": 1208
+    },
+    {
+      "id": "project:leetcode/file:problems/67. Add Binary/new.js",
+      "type": "file",
+      "path": "problems/67. Add Binary/new.js",
+      "sha256": "d14c0c37bac8e2dd70a7b6557deb42c5ea937d09d47fd8bd2cffd010939c426f",
+      "bytes": 447
+    },
+    {
+      "id": "project:leetcode/file:problems/two-sum/README.md",
+      "type": "file",
+      "path": "problems/two-sum/README.md",
+      "sha256": "447fd65df2ad87fac90ab8dcb9e37f7038164d8dd838d3877892f1203f979c4e",
+      "bytes": 5071
+    },
+    {
+      "id": "project:leetcode/file:problems/two-sum/two-sum.js",
+      "type": "file",
+      "path": "problems/two-sum/two-sum.js",
+      "sha256": "07b63533a4e53e515a83d0f9860cdd50ac15cad96cb41ad78011e47af6bfd522",
+      "bytes": 2068
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:leetcode",
+      "target": "project:leetcode/file:problems/67. Add Binary/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "problems/67. Add Binary/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:leetcode",
+      "target": "project:leetcode/file:problems/67. Add Binary/new.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "problems/67. Add Binary/new.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:leetcode",
+      "target": "project:leetcode/file:problems/two-sum/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "problems/two-sum/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:leetcode",
+      "target": "project:leetcode/file:problems/two-sum/two-sum.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "problems/two-sum/two-sum.js"
+      },
+      "method": "filesystem"
+    }
+  ]
+}
